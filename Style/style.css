@@ -91,16 +91,23 @@ header {
     color: white;
 }
 
-.menu .view-all {
+/* .menu .view-all {
     margin-left: auto;
     font-size: 0.8rem;
     text-decoration: none;
     color: #ff5400;
-}
+} */
 
 /* Main Section  */
 .popular-sec {
     padding: 1rem;
+}
+
+.view-all {
+    margin-left: 24rem;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #ff5400;
 }
 
 .popular-sec h2 {
