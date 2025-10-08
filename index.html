@@ -26,10 +26,10 @@
         
         <nav class="menu">
             <button class="active">All</button>
-            <button>Noodles</button>
-            <button>Jollof Rice</button>
-            <button>Fried Rice</button>
-            <button>Spaghetti</button>
+            <a href="#noodles"><button>Noodles</button></a>
+            <a href="#jollof"><button>Jollof Rice</button></a>
+            <a href="#fried"><button>Fried Rice</button></a>
+            <a href="#spag"><button>Spaghetti</button></a>
             <a href="#" class="view-all">View All</a>
         </nav>
     </header>
@@ -39,7 +39,8 @@
         <section aria-labelledby="popular-title" class="popular-sec">
             <h2>Popular</h2>
 
-            <article class="food">
+            <article id="noodles" class="food">
+                <a href="noodles.html">
                  <figure>
                     <img src="img/delicious-noodles.jpg" width="200" height="150" title="Delicious Noodles" alt="Noodles">
                     <figcaption>
@@ -47,9 +48,10 @@
                          <p class="price">#3,500</p>
                     </figcaption>
                 </figure>
+                </a>
             </article>
 
-            <article class="food">
+            <article id="fried" class="food">
                 <figure>
                     <img src="img/Fried-Rice.jpg" width="150" height="150" title="Fried Rice" alt="Fried Rice">
                     <figcaption>
@@ -59,7 +61,7 @@
                 </figure>
             </article>
 
-            <article class="food">
+            <article id="jollof" class="food">
                 <figure>
                     <img src="img/Jollof-Rice.jpg" width="200" height="150" title="Jollof Rice" alt="Jollof Rice">
                     <figcaption>
@@ -69,12 +71,12 @@
                 </figure>
             </article>
 
-            <article class="food">
+            <article id="spag" class="food">
                 <figure>
                     <img src="img/Bolognese.jpg" width="200" alt="Spaghetti" title="Bolongnese">
                     <figcaption>
                         <h3>Spaghetti</h3>
-                        <p>#5,000</p>
+                        <p class="price">#5,000</p>
                     </figcaption>
                 </figure>
             </article>
