@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     background-color: #f9f9f9;
+     color: #333;
+     max-width: 480px;
+     margin: 0 auto;
+     padding-bottom: 5rem;
+}
+
+/* Header  */
+header {
+    background: whitesmoke;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #eee;
+}
+
+header h2 {
+    font-size: 1.2rem;
+}
+
+header a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+    justify-content: space-between;
+}
+
+/* Product Page  */
+.product-hero {
+    background: white;
+    text-align: center;
+}
+
+.product-hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 280px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.product-info {
+    padding: 1rem;
+    background: white;
+    border-radius: 1rem 1rem 0 0;
+    margin-top: -1rem;
+    position: relative;
+    z-index: 1;
+}
+
+.product-info h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.description p {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.5;
+}
+
+.buy-section {
+    display: flex;
+}

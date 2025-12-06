@@ -26,6 +26,10 @@ header {
     padding: 1.5rem;
 }
 
+header a {
+    text-decoration: none;
+}
+
 .top-bar {
    display: flex;
    justify-content: space-between;
@@ -122,6 +126,10 @@ header {
     margin-bottom: 1rem;
 }
 
+.food a {
+    text-decoration: none;
+}
+
 .food figure {
     display: flex;
     flex-direction: column;
@@ -188,3 +196,4 @@ footer {
     font-size: 1.2rem;
   }
 }
+
